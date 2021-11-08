@@ -2,7 +2,7 @@ using System;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace DemoNetCore.Models
+namespace DEMONETCORE.Models
 {
     [Table("Movies")]
     public class Movie

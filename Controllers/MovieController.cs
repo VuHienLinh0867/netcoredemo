@@ -5,9 +5,10 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
-using DemoNetCore.Models;
+using DEMONETCORE.Models;
+using DEMONETCORE.Data;
 
-namespace DemoNetCore.Controllers
+namespace DEMONETCORE.Controllers
 {
     public class MovieController : Controller
     {
