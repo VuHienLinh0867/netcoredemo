@@ -15,6 +15,14 @@ namespace DEMONETCORE.Data
         }
 
         public DbSet<Movie> Movie { get; set; }
+
+        public DbSet<DEMONETCORE.Models.Person> Person { get; set; }
+
+        public DbSet<DEMONETCORE.Models.Student> Student { get; set; }
+
+        public DbSet<DEMONETCORE.Models.Employee> Employee { get; set; }
+
+        public DbSet<DEMONETCORE.Models.Product> Product { get; set; }
     }
 }
     
